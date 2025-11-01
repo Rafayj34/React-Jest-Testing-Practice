@@ -21,7 +21,6 @@ describe("User Account", () => {
     render(<UserAccount user={user2} />);
     const button = screen.queryByRole('button');
     expect(button).not.toBeInTheDocument();
-    
   });
   // const user3: User = {id:2, name: "Faris"};
 });
